@@ -1,7 +1,7 @@
 export default (formData) => {
 	return new Promise((resolve, reject) => {
 		setTimeout(() => {
-			if (formData.username === 'Rohan' && formData.password === 'rohan123' ? true : false) {
+			if (formData.username === 'alok' && formData.password === 'alok123' ? true : false) {
 				resolve(formData.username);
 			} else {
 				reject('Username and password is incorrect');

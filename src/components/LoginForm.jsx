@@ -45,6 +45,12 @@ const LoginForm = () => {
 		}));
 	}
 
+	//ES 6 ...formData - It's called spread attributes and its aim is to make the passing of props easier.
+
+	// Let us imagine that you have a component that accepts N number of properties. Passing these down can be tedious and unwieldy if the number grows.
+
+	// Thus instead you do this, wrap them up in an object and use the spread notation
+
 	return (
 		<Fragment>
 			{isLoggedIn ? (
